@@ -24,11 +24,15 @@ body {
   background: var(--indigo-escuro);
 }
 
-nav {
-  background: rgba(155, 114, 239, 0.15); /* --roxo-claro com opacidade */
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
+img{
+    height: 40px;
+    width: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
 }
 
 h1 {

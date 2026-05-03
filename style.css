@@ -1,0 +1,101 @@
+:root {
+  --roxo-claro:   #9b72ef;
+  --roxo:         #6c3fc5;
+  --roxo-escuro:  #3b1a7a;
+  --azul-claro:   #6b9abf;
+  --azul:         #3a5f8a;
+  --azul-escuro:  #1b3350;
+  --indigo-claro: #7e7cb8;
+  --indigo:       #4a4880;
+  --indigo-escuro:#252450;
+  --cinza-claro:  #8fa3b8;
+  --cinza:        #5a6880;
+  --cinza-escuro: #2c3a4a;
+  --destaque:     #2abfbf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--indigo-escuro);
+}
+
+nav {
+  background: rgba(155, 114, 239, 0.15); /* --roxo-claro com opacidade */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--roxo-claro);
+}
+
+h3 {
+  text-align: center;
+  color: var(--cinza-claro);
+}
+
+h4 {
+  text-align: left;
+  color: var(--cinza-claro);
+}
+
+.present {
+  width: 100%;
+  background: var(--indigo);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.present figure {
+  margin-left: 5%;
+}
+
+figure {
+  width: calc(80% / 3);
+  text-align: center;
+}
+
+figcaption p {
+  display: none;
+}
+
+.joao {
+  background: var(--roxo);
+}
+
+.miguel {
+  background: var(--azul);
+}
+
+.ryan {
+  background: var(--azul-escuro);
+}
+
+.transcricao {
+  background: rgba(42, 191, 191, 0.15); /* --destaque com opacidade */
+  margin: 0 5%;
+  border-radius: 5%;
+}
+
+.transcricao h3 {
+  text-align: left;
+  font-weight: 900;
+  color: var(--destaque);
+}
+
+.transcricao h2 {
+  text-align: left;
+  margin-top: 2%;
+  font-size: 1rem;
+  font-weight: 200;
+  color: var(--cinza-claro);
+}

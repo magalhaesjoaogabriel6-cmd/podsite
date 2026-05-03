@@ -28,6 +28,11 @@ img{
     height: 40px;
     width: auto;
 }
+figure img{
+    height: 80px;
+    width: auto;
+    border-radius: 50%;
+}
 
 header{
     display: flex;
